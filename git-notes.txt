@@ -43,3 +43,20 @@ $git branch git-notes
 	^master
 	^HEAD
 	^git-notes
+
+$git checkout git-notes
+$git commit
+
+[A]——————————[B]——————————[C]
+		^master	^HEAD
+				^git-notes
+
+$git checkout master
+$git commit
+
+[A]——————————[B]——————————[C]
+		|		^git-notes
+		|
+	      [D]
+		^master	
+		^HEAD	
