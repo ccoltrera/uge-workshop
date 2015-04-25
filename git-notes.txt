@@ -1,0 +1,62 @@
+
+- - - Git Directories - - -
+
+$git status
+
+Working directory		Staging area		Repo
+-----------------		------------		----
+unix_notes.txt
+
+
+$git add unix_notes.txt
+
+Working directory		Staging area		Repo
+-----------------		------------		----
+unix_notes.txt		unix_notes.txt
+
+
+$git commit -m ‘add unix notes’
+
+Working directory		Staging area		Repo
+-----------------		------------		----
+unix_notes.txt					unix_notes.txt
+
+
+- - - Visualizing Git - - -
+
+
+$git init
+
+[A]
+ ^master
+ ^HEAD
+
+$git commit
+
+[A]——[B]
+	^master
+	^HEAD
+
+$git branch git-notes
+
+[A]——[B]
+	^master
+	^HEAD
+	^git-notes
+
+$git checkout git-notes
+$git commit
+
+[A]——————————[B]——————————[C]
+		^master	^HEAD
+				^git-notes
+
+$git checkout master
+$git commit
+
+[A]——————————[B]——————————[C]
+		|		^git-notes
+		|
+	      [D]
+		^master	
+		^HEAD	
