@@ -1,0 +1,237 @@
+    1  /Applications/Pinyin\ Dictionary.app/Contents/MacOS/Pinyin\ Dictionary ; exit;
+    2  $git config --global user.name "Colin Coltrera"
+    3  git --version
+    4  git --version
+    5  git config --global user.name "Colin Coltrera"
+    6  git config --global user.email "c.coltrera@gmail.com"
+    7  git init project1
+    8  cd project1
+    9  create file1.txt
+   10  git add file1.txt
+   11  git commit -m"My first commit"
+   12  git init project2
+   13  cd project2
+   14  cd project1
+   15  cd project1
+   16  cd project2
+   17  git status
+   18  git init project1
+   19  git cd project1
+   20  cd project1
+   21  cd colincoltrera
+   22  git init
+   23  git status
+   24  git init TESTPROJECT
+   25  cd TESTPROJECT
+   26  ls
+   27  cd Desktop
+   28  cd Python
+   29  git init
+   30  git status
+   31  git add *.py
+   32  git status
+   33  git commit
+   34  cd Desktop
+   35  cd Python
+   36  git status
+   37  git commit -m "First 3 completed games"
+   38  cd
+   39  cd ..
+   40  cd /
+   41  ls
+   42  cd -
+   43  cd -
+   44  cd -
+   45  ls
+   46  cd colincoltrera
+   47  cd Desktop
+   48  cd Python
+   49  ls
+   50  git status
+   51  git remote add origin https://github.com/ccoltrera/python_games.git
+   52  git push
+   53  git push -u origin master
+   54  git push -u origin master
+   55  git status
+   56  git add hangTheMan.py
+   57  git status
+   58  git commit -m "Hangman's eyes changed on death"
+   59  git push
+   60  git config --global push.default simple
+   61  cd Desktop
+   62  cd Python
+   63  git status
+   64  git add *.py
+   65  git status
+   66  git add *.py
+   67  git status
+   68  git commit
+   69  ln -s "/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+   70  cd Desktop
+   71  cd Coding
+   72  subl .
+   73  ln -s "/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+   74  sudo ln -s "/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+   75  cd Desktop
+   76  cd Python
+   77  cd Coding
+   78  subl .
+   79  ls -l ~
+   80  pwd
+   81  cd Documents
+   82  cd ~/Desktop
+   83  cd Coding
+   84  cd Python/IYO
+   85  cd ..
+   86  cd ../..
+   87  cd
+   88  man git
+   89  man ls
+   90  man man
+   91  cd /System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc
+   92  cd System
+   93  pwd
+   94  pwd
+   95  pwd
+   96  cd /
+   97  pwd
+   98  ls
+   99  ls -t
+  100  ls -l
+  101  cd
+  102  ls -tl
+  103  ls -r
+  104  ls -rl
+  105  ls -t
+  106  ls -lrt
+  107  clear
+  108  man ls
+  109  man man
+  110  clear
+  111  ls man
+  112  man ls
+  113  ls G
+  114  ls -G
+  115  CLICOLOR
+  116  ls -G
+  117  man ls
+  118  clear
+  119  man touch
+  120  cd /Users/colincoltrera
+  121  clear
+  122  cd /tmp
+  123  mkdir my\ folder
+  124  ls
+  125  cd my folder
+  126  cd my\ folder
+  127  cd ..
+  128  cd my\ folder
+  129  cd ../..
+  130  ls
+  131  pwd
+  132  cd
+  133  clear
+  134  /tmp
+  135  cd /tmp
+  136  mkdir DiReC
+  137  cd direc
+  138  clear
+  139  cd
+  140  ls
+  141  ls -G
+  142  ls
+  143  ls -G
+  144  cd Documents
+  145  ls -l
+  146  ls -lG
+  147  rm bagels.py
+  148  ls
+  149  ls -lG
+  150  cd My\ Documents
+  151  pwd
+  152  cd ..
+  153  cd My\ Documents
+  154  cd ../..
+  155  cd Documents/My\ Documents
+  156  cd ../My\ Videos
+  157  cd ../..
+  158  cd ..
+  159  cd ..
+  160  cd ..
+  161  cd
+  162  clear
+  163  ls -l  /Users/colincoltrera/Desktop/Coding/Python
+  164  clear
+  165  cd /Users/colincoltrera/Desktop/Coding/Python
+  166  ls -lG
+  167  cd IYO
+  168  cd ../../Javascript
+  169  cd ..
+  170  ls -G
+  171  cd ..
+  172  cd ..
+  173  cd ..
+  174  ls
+  175  us marccoltrera
+  176  su marccoltrera
+  177  clear
+  178  cd /
+  179  cd ~
+  180  cd var
+  181  cd /var
+  182  cd ~/Desktop
+  183  cd ..
+  184  ls ..
+  185  ls ../..
+  186  ls -G ../..
+  187  cd /var/log/
+  188  cd /home
+  189  ls
+  190  ls
+  191  ls -l
+  192  cd
+  193  cd /Users/colincoltrera/Desktop/
+  194  clear
+  195  ls .
+  196  less Untitled.rtf
+  197  less Untitled\ 4.txt
+  198  clear
+  199  cd
+  200  clear
+  201  history
+  202  history 10
+  203  history | less
+  204  history 10 | less
+  205  history | less
+  206  history > terminal-history.txt
+  207  less terminal-history.txt 
+  208  subl terminal-history.txt
+  209  man subl
+  210  clear
+  211  nano terminal-history.txt
+  212  pico terminal-history.txt
+  213  clear
+  214  history 4 >> terminal-history.txt
+  215  pico terminal-history.txt 
+  216  head
+  217  man head
+  218  history | head
+  219  man head
+  220  history | head -n 50
+  221  mkdir uge_workshop
+  222  ls
+  223  ls -G
+  224  mv terminal-history.txt uge_workshop/moving-around.txt
+  225  ls
+  226  cd uge_workshop/
+  227  ls
+  228  mv moving-around.txt moving_around.txt
+  229  ls
+  230  mv moving_around.txt unix_notes.txt
+  231  ls -G
+  232  ls -l
+  233  clear
+  234  pwd
+  235  ls
+  236  history | unix_notes.txt
+  237  history > unix_notes.txt
